@@ -1,0 +1,40 @@
+{
+  "type": "module",
+  "name": "@dmfx/utilities-planner",
+  "version": "1.0.0",
+  "description": "A simple utility that syncs a Trello project to a local Markdown file",
+  "main": "index.js",
+  "engines": {
+    "node": ">=13.0"
+  },
+  "bin": {
+    "dmfx-planner": "./index.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "ramda": "^0.27.0",
+    "uuid": "^7.0.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darkmatterframeworks/utilities-planner.git"
+  },
+  "keywords": [
+    "markdown",
+    "planning",
+    "trello"
+  ],
+  "author": "Sebastien Filion <sebastien@dmfx.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/darkmatterframeworks/utilities-planner/issues"
+  },
+  "homepage": "https://github.com/darkmatterframeworks/utilities-planner#readme"
+}
